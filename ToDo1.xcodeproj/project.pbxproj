@@ -16,6 +16,10 @@
 		A4105C762E4E244A0021A158 /* ToDo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4105C752E4E244A0021A158 /* ToDo1Tests.swift */; };
 		A4105C802E4E244A0021A158 /* ToDo1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4105C7F2E4E244A0021A158 /* ToDo1UITests.swift */; };
 		A4105C822E4E244A0021A158 /* ToDo1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4105C812E4E244A0021A158 /* ToDo1UITestsLaunchTests.swift */; };
+		A41729412E50DD8500AEF706 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41729402E50DD8500AEF706 /* ApiManager.swift */; };
+		A41729442E50E2A100AEF706 /* ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41729432E50E2A100AEF706 /* ViewCell.swift */; };
+		A43A0EC42E51F54E00F3E51E /* ViewTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A0EC32E51F54E00F3E51E /* ViewTable.swift */; };
+		A43B0E6B2E56C62900959449 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B0E6A2E56C62900959449 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		A4105C7B2E4E244A0021A158 /* ToDo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4105C7F2E4E244A0021A158 /* ToDo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo1UITests.swift; sourceTree = "<group>"; };
 		A4105C812E4E244A0021A158 /* ToDo1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A41729402E50DD8500AEF706 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		A41729432E50E2A100AEF706 /* ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCell.swift; sourceTree = "<group>"; };
+		A43A0EC32E51F54E00F3E51E /* ViewTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTable.swift; sourceTree = "<group>"; };
+		A43B0E6A2E56C62900959449 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		A4105C5A2E4E24490021A158 /* ToDo1 */ = {
 			isa = PBXGroup;
 			children = (
+				A43A0EC22E51F50200F3E51E /* Model */,
+				A41729422E50E28C00AEF706 /* View */,
 				A4105C5B2E4E24490021A158 /* AppDelegate.swift */,
 				A4105C5D2E4E24490021A158 /* SceneDelegate.swift */,
 				A4105C5F2E4E24490021A158 /* ViewController.swift */,
@@ -125,6 +135,24 @@
 				A4105C812E4E244A0021A158 /* ToDo1UITestsLaunchTests.swift */,
 			);
 			path = ToDo1UITests;
+			sourceTree = "<group>";
+		};
+		A41729422E50E28C00AEF706 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A41729432E50E2A100AEF706 /* ViewCell.swift */,
+				A43A0EC32E51F54E00F3E51E /* ViewTable.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A43A0EC22E51F50200F3E51E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A41729402E50DD8500AEF706 /* ApiManager.swift */,
+				A43B0E6A2E56C62900959449 /* CoreDataManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,9 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41729442E50E2A100AEF706 /* ViewCell.swift in Sources */,
 				A4105C602E4E24490021A158 /* ViewController.swift in Sources */,
 				A4105C662E4E24490021A158 /* ToDo1.xcdatamodeld in Sources */,
+				A43A0EC42E51F54E00F3E51E /* ViewTable.swift in Sources */,
+				A41729412E50DD8500AEF706 /* ApiManager.swift in Sources */,
 				A4105C5C2E4E24490021A158 /* AppDelegate.swift in Sources */,
+				A43B0E6B2E56C62900959449 /* CoreDataManager.swift in Sources */,
 				A4105C5E2E4E24490021A158 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
