@@ -1,5 +1,5 @@
 # О проекте
-приложение для ведения списка дел с возможностью добавления, редактирования, удаления задач
+Приложение для ведения списка дел с возможностью добавления, редактирования, удаления задач
 
 [ТЗ от компании](https://docs.360.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2FG%2FsBR6g5Su%2Bg4Zy0ZkTVj1hNBMeYtITlpegRQjC63%2FkFs0N5tUcPNvX4Ibd6OM62sLK2WbwBkR%2F%2FqfmVHoPilw%3D%3D&name=Effective%20Mobile%20IOS%20Тестовое%20задание%20(1).pdf)
 
